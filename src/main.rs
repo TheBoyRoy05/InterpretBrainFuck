@@ -1,5 +1,5 @@
 fn main() {
-    let program = "++++++++[>++++[>++>+++>+++>+<<<<-]>+>+>->>+[<]<-]>>.>---.+++++++..+++.>>.<-.<.+++.------.--------.>>+.>++.";
+    let program = include_str!("../helloworld.bf");
     let mut tape = [0u8; 30000];
     let mut dp: usize = 0;
     let mut pc: usize = 0;
